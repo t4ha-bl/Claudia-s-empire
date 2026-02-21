@@ -284,6 +284,11 @@ export default function App() {
                 Get a Free Quote
               </a>
             </div>
+
+            {/* Mobile Menu Button - Positioned absolutely right for mobile */}
+            <button onClick={toggleMenu} className="md:hidden absolute right-0 p-2 text-gray-700 hover:text-primary">
+              {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
+            </button>
           </div>
         </div>
 

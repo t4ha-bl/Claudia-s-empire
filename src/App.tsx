@@ -495,13 +495,27 @@ export default function App() {
             </motion.div>
           </div>
 
-          <div className="text-center">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-6 mt-8">
             <a 
               href="https://www.google.com/maps/place/Claudia's+Cleaning+Empire/@41.0354353,-89.8858062,1443033m/data=!3m1!1e3!4m8!3m7!1s0xadf8257c23062df1:0x22ab8cfc214471b9!8m2!3d40.6142592!4d-87.0823346!9m1!1b1!16s%2Fg%2F11yjk1bfk5?entry=ttu&g_ep=EgoyMDI2MDIxOC4wIKXMDSoASAFQAw%3D%3D" 
               target="_blank"
               className="inline-flex items-center gap-2 text-primary font-bold hover:gap-3 transition-all border-b-2 border-primary pb-1"
             >
-              See all reviews on Google Maps <ArrowRight size={18} />
+              See reviews on Google Maps <ArrowRight size={18} />
+            </a>
+            <a 
+              href="https://www.thumbtack.com/in/indianapolis/house-cleaning/claudias-cleaning-empire/service/457321418156597263" 
+              target="_blank"
+              className="inline-flex items-center gap-2 text-primary font-bold hover:gap-3 transition-all border-b-2 border-primary pb-1"
+            >
+              See reviews on Thumbtack <ArrowRight size={18} />
+            </a>
+            <a 
+              href="https://www.homeadvisor.com/rated.ClaudiasCleaningEmpire.130936284.html" 
+              target="_blank"
+              className="inline-flex items-center gap-2 text-primary font-bold hover:gap-3 transition-all border-b-2 border-primary pb-1"
+            >
+              See reviews on HomeAdvisor <ArrowRight size={18} />
             </a>
           </div>
         </div>
